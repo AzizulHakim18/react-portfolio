@@ -1,0 +1,135 @@
+.title-name h1 {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 800;
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: 1.2;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+span {
+    display: flex;
+}
+
+#a {
+    color: #ea4335;
+    background-color: transparent;
+    animation-name: css;
+    animation-duration: calc (2s/ 4);
+    animation-delay: 0s;
+}
+
+#b {
+    color: #fbbc05;
+    background-color: transparent;
+    animation-name: css;
+    animation-duration: calc(2s / 2);
+}
+
+#c {
+    color: #34a853;
+    animation-name: css;
+    animation-duration: calc(2s / 1.4);
+}
+
+.title-name-style {
+    display: flex;
+    position: absolute;
+    height: 4rem;
+    width: 9rem;
+    background-color: transparent;
+    z-index: -100;
+    transform: translate(10rem, 0rem);
+    animation: cursor 2s ease-out;
+}
+
+.title-work {
+    width: 22ch;
+    color: #f1f1f1;
+    animation: typing 7s steps(24) infinite, blink 0.45s step-end infinite alternate;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+
+@keyframes cursor {
+    0% {
+        background-color: #ea4335;
+        transform: translate(10rem, 0rem);
+        z-index: 2;
+    }
+
+    20% {
+        background-color: #ea4335;
+        transform: translate(0rem, 0rem);
+    }
+
+    25% {
+        background-color: #ea4335;
+        transform: translate(-9rem, 0rem);
+    }
+
+    30% {
+        background-color: #fbbc05;
+        transform: translate(-9rem, 5rem);
+        width: 10rem;
+    }
+
+    40% {
+        background-color: #fbbc05;
+        transform: translate(0rem, 5rem);
+        width: 20rem;
+    }
+
+    50% {
+        background-color: #fbbc05;
+        transform: translate(0rem, 5rem);
+        width: 25rem;
+    }
+
+    60% {
+        background-color: #34a853;
+        transform: translate(0rem, 9.5rem);
+        width: 27rem;
+    }
+
+    80% {
+        transform: translate(-10rem, 9.5rem);
+        background-color: #34a853;
+    }
+
+    89% {
+        transform: translate(-20rem, 9.5rem);
+        background-color: #34a853;
+        z-index: 2;
+    }
+
+    91% {
+        z-index: -100;
+        background-color: white;
+    }
+
+    100% {
+        z-index: -100;
+        background-color: white;
+    }
+}
