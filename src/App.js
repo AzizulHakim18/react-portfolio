@@ -10,7 +10,7 @@ function App() {
 
 
     return (
-        <div className='w-5/6 mx-auto'>
+        <div className='lg:w-5/6 mx-auto'>
 
             <RouterProvider router={router}></RouterProvider>
         </div>

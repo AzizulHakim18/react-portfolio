@@ -36,7 +36,7 @@ const Skills = () => {
     return (
         <div>
             <motion.h1
-                className='lg:text-6xl md:text-5xl sm:text-3xl font-extrabold text-center text-green-600 m-4 p-2'
+                className='lg:text-6xl md:text-5xl sm:text-3xl font-extrabold text-center text-green-500 m-4 p-2'
                 initial={{ y: -250 }}
                 animate={{ y: -10 }}
             >SKILLS</motion.h1>
@@ -49,7 +49,7 @@ const Skills = () => {
             </motion.p>
 
             <motion.div
-                className='container grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-items-center w-11/12 mx-auto lg:my-4 lg:py-3'
+                className='container grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 justify-items-center w-11/12 mx-auto lg:my-4 lg:py-3'
                 variants={container}
                 initial="hidden"
                 animate="visible"

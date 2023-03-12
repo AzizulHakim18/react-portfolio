@@ -19,7 +19,7 @@ const PizzaPalace = () => {
                 <h3 className='text-2xl font-semibold text-cyan-500'>2.Food Ordering Website</h3>
             </div>
             <div className='w-full h-full lg:flex md:flex justify-center items-center'>
-                <div className='w-1/2'>
+                <div className='lg:w-1/2'>
                     <Tilt className="Tilt" options={{ max: 25, speed: 450 }} >
                         <div className='w-11/12 h-1/4  bg-gray-900 border-2 border-emerald-500 rounded-lg shadow-lg shadow-cyan-500/50 '>
 
@@ -48,7 +48,7 @@ const PizzaPalace = () => {
 
 
                 </div>
-                <div className='w-1/2'>
+                <div className='lg:w-1/2'>
                     <motion.div className='w-full text-justify lg:m-4 lg:p-4'
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}

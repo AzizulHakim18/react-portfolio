@@ -40,20 +40,20 @@ const Home = () => {
 
 
 
-                    <motion.button className="btn btn-outline btn-primary mx-3"
+                    <motion.button className="btn btn-outline btn-info mx-3"
 
                     >HIRE ME</motion.button>
-                    <motion.button className="btn btn-outline btn-primary mx-3"
+                    <motion.button className="btn btn-outline btn-info mx-3"
                         initial={{ x: "1oovw" }}
                         animate={{ x: 0 }}
                     >DOWNLOAD MY CV</motion.button>
                 </div>
 
                 <div className='flex m-4 p-4'>
-                    <AiFillLinkedin className=' text-green-600 h-8 w-8 mx-2'></AiFillLinkedin>
-                    <AiFillGithub className=' text-green-600 h-8 w-8 mx-2'></AiFillGithub>
-                    <AiFillFacebook className=' text-green-600 h-8 w-8 mx-2'></AiFillFacebook>
-                    <AiOutlineInstagram className=' text-green-600 h-8 w-8 mx-2'></AiOutlineInstagram>
+                    <AiFillLinkedin className=' text-cyan-600 h-8 w-8 mx-2'></AiFillLinkedin>
+                    <AiFillGithub className=' text-cyan-600 h-8 w-8 mx-2'></AiFillGithub>
+                    <AiFillFacebook className=' text-cyan-600 h-8 w-8 mx-2'></AiFillFacebook>
+                    <AiOutlineInstagram className=' text-cyan-600 h-8 w-8 mx-2'></AiOutlineInstagram>
                 </div>
 
             </section>

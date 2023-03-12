@@ -7,6 +7,17 @@
     pointer-events: none;
 }
 
+.home-banner {
+    background-image: url('./assets/img/circuit-bg.jpg'), linear-gradient(to left top, blue, red);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
@@ -31,6 +42,7 @@
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }

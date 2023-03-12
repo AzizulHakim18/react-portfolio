@@ -11,7 +11,7 @@ const Service = () => {
         <div>
             <div>
                 <motion.h1
-                    className='lg:text-6xl md:text-5xl sm:text-3xl font-extrabold text-center text-green-600 m-4 p-2'
+                    className='lg:text-6xl md:text-5xl sm:text-3xl font-extrabold text-center text-green-500 m-4 p-2'
                     initial={{ y: -250 }}
                     animate={{ y: -10 }}
                 >SERVICES</motion.h1>

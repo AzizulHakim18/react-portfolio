@@ -37,7 +37,7 @@ const EasyShop = () => {
                         <Link ><BiLinkExternal className='w-12 h-12 m-2 p-2 text-cyan-500'></BiLinkExternal></Link>
                     </div>
                 </motion.div>
-                <div className='w-1/2' >
+                <div className='lg:w-1/2' >
                     <Tilt className="Tilt" options={{ max: 25, speed: 450 }} >
                         <div className='w-11/12 h-1/4  bg-gray-900 border-2 border-emerald-500 rounded-lg shadow-lg shadow-cyan-500/50 '>
 
