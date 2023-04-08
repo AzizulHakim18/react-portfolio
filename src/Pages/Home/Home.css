@@ -17,7 +17,7 @@ span {
     color: #ea4335;
     background-color: transparent;
     animation-name: css;
-    animation-duration: calc (2s/ 4);
+    animation-duration: calc (3s/ 6);
     animation-delay: 0s;
 }
 
@@ -25,13 +25,13 @@ span {
     color: #fbbc05;
     background-color: transparent;
     animation-name: css;
-    animation-duration: calc(2s / 2);
+    animation-duration: calc(3s / 3);
 }
 
 #c {
     color: #34a853;
     animation-name: css;
-    animation-duration: calc(2s / 1.4);
+    animation-duration: calc(3s / 2);
 }
 
 .title-name-style {
@@ -42,19 +42,18 @@ span {
     background-color: transparent;
     z-index: -100;
     transform: translate(10rem, 0rem);
-    animation: cursor 2s ease-out;
+    animation: cursor 3s ease-out;
 }
 
 .title-work {
-    width: 22ch;
+    width: 26ch;
     color: #f1f1f1;
-    animation: typing 7s steps(24) infinite, blink 0.45s step-end infinite alternate;
+    animation: typing 7s steps(25) infinite, blink 0.45s step-end infinite alternate;
     white-space: nowrap;
-    text-align: center;
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 
