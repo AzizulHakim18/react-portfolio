@@ -14,7 +14,7 @@ const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 toast.success("Successfully send your message.")
-                form.reset()
+              
             }, (error) => {
                 console.log(error.text);
                 toast.error("Something is missing.")

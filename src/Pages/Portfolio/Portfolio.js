@@ -2,6 +2,9 @@ import React from 'react';
 import EasyShop from './EasyShop';
 import PizzaPalace from './PizzaPalace';
 import { motion } from 'framer-motion';
+import DoctorsBD from './DoctorsBD';
+import QucikQuiz from './QucikQuiz';
+import MachineX from './MachineX';
 const Portfolio = () => {
     return (
         <div>
@@ -17,10 +20,19 @@ const Portfolio = () => {
                     <EasyShop></EasyShop>
                 </div>
                 <div className='my-4 py-4'>
+                    <QucikQuiz></QucikQuiz>
+                </div>
+                <div className='my-4 py-4'>
+                    <DoctorsBD></DoctorsBD>
+                </div>
+                <div className='my-4 py-4'>
                     <PizzaPalace></PizzaPalace>
                 </div>
+                <div className='my-4 py-4'>
+                    <MachineX></MachineX>
+                </div>
                 <div>
-                    <h3 className='text-2xl font-semibold text-cyan-500'>3.Booking website Loading...........</h3>
+                    <h3 className='text-2xl font-semibold text-cyan-500'>6.Booking website Loading...........</h3>
                 </div>
             </div>
         </div>

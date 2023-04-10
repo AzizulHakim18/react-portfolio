@@ -33,8 +33,8 @@ const EasyShop = () => {
                     </div>
 
                     <div className='flex '>
-                        <Link ><AiFillGithub className='w-12 h-12 m-2 p-2 text-cyan-500'></AiFillGithub></Link>
-                        <Link ><BiLinkExternal className='w-12 h-12 m-2 p-2 text-cyan-500'></BiLinkExternal></Link>
+                        <Link target='_blank' to="https://github.com/AzizulHakim18/easy-shop-clientside"><AiFillGithub className='w-12 h-12 m-2 p-2 text-cyan-500'></AiFillGithub></Link>
+                        <Link target='_blank' to="https://easy-shop-d02c0.firebaseapp.com/"><BiLinkExternal className='w-12 h-12 m-2 p-2 text-cyan-500'></BiLinkExternal></Link>
                     </div>
                 </motion.div>
                 <div className='lg:w-1/2' >

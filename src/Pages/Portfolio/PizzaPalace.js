@@ -16,7 +16,7 @@ const PizzaPalace = () => {
         <div>
 
             <div>
-                <h3 className='text-2xl font-semibold text-cyan-500'>2.Food Ordering Website</h3>
+                <h3 className='text-2xl font-semibold text-cyan-500'>4.Food Ordering Website</h3>
             </div>
             <div className='w-full h-full lg:flex md:flex justify-center items-center'>
                 <div className='lg:w-1/2'>
@@ -65,8 +65,8 @@ const PizzaPalace = () => {
                         </div>
 
                         <div className='flex '>
-                            <Link ><AiFillGithub className='w-12 h-12 m-2 p-2 text-cyan-500'></AiFillGithub></Link>
-                            <Link ><BiLinkExternal className='w-12 h-12 m-2 p-2 text-cyan-500'></BiLinkExternal></Link>
+                            <Link target='_blank' to="https://github.com/AzizulHakim18/pizza-palace"><AiFillGithub className='w-12 h-12 m-2 p-2 text-cyan-500'></AiFillGithub></Link>
+                            <Link target='_blank' to="https://silly-chimera-06acd2.netlify.app/"><BiLinkExternal className='w-12 h-12 m-2 p-2 text-cyan-500'></BiLinkExternal></Link>
                         </div>
                     </motion.div>
                 </div>
